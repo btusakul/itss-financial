@@ -222,7 +222,7 @@
     $ticketData[$ticketNum]["closeDate"] = $array["CLOSE_DATE"];
     $ticketData[$ticketNum]["pid"] = $array["PID"];
     $ticketData[$ticketNum]["buyer"] = $array["BUYER"];
-    $ticketData[$ticketNum]["index"][] = $ticketIndex;
+    $ticketData[$ticketNum]["irndex"][] = $ticketIndex;
     $ticketData[$ticketNum]["index"] = array_unique($ticketData[$ticketNum]["index"]);
     $ticketData[$ticketNum][$ticketIndex]["indexPct"] = $array["INDX_CHARGE_PCT"];
     $ticketData[$ticketNum][$ticketIndex]["rawQty"] = $array["RAW_QTY"];
